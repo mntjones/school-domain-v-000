@@ -26,4 +26,5 @@ class School
       @roster[grade] = array.sort
     end
     @roster
+  end
 end
