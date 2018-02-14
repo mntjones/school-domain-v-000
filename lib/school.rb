@@ -25,6 +25,9 @@ class School
     sorted = {}
     sorted_keys = @roster.keys.sort
     sorted_values = @roster.values
-    
+    sorted_values.collect do |array|
+      array.sort
+    end
+    sorted_values
   end
 end
